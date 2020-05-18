@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="Styles/skeleton.css">
+    <link rel="stylesheet" href="Styles/normalize.css">
+    <link rel="stylesheet" href="Styles/style1.css">
+    <title>NumFact</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="heading twelve column">
+            <h1>Num<span style="color: #13bf72">Fact</span></h1>
+            <h3>Fact for every number</h3>
+        </div>
+        <div class="searchForm">
+                <label for="number">Enter a number</label>
+                <input type="number" id="number"oninput="this.value = Math.abs(this.value)" placeholder="0 is default">
+                <input type="submit" value="Search it!" class="btn" style="font-family: 'Press Start 2P', cursive;" onclick="fetchData()">
+<!--                <img src="assets/interface.svg" alt="" id="searchIcon" onclick="fetchData()">-->
+        </div>
+        <div class="textarea">
+<!--            <textarea name="results" id="resulted" cols="70" rows="70"></textarea>-->
+<!--            <h1>num</h1>-->
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script src="Scripts/script1.js"></script>
+</body>
+</html>

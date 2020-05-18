@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Press+Start+2P&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-image: url("../Assets/pablo-waiting.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.mainContainer{
+    display: block;
+    text-align: center;
+}
+
+.heading h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 80px;
+    margin-bottom: -5px;
+}
+
+.heading h3 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+}
+
+.btn{
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+.btn:hover{
+    background-color: #1aff98 !important;
+    color: #000000 !important;
+}
+
+#number:focus{
+    border: 2px solid #1aff98;
+}
+
+#number{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#resulted{
+    width: 887px;
+    height: 425px;
+    resize: none;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.textarea{
+    display: block;
+    width: 600px;
+    height: 300px;
+    padding: 12px;
+    margin: 0 auto;
+    border-radius: 20px;
+    opacity: 0.8;
+    background-color: #020707;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+@media(max-width: 648px) {
+    .textarea{
+        display: block;
+        width: 400px;
+        height: 300px;
+        padding: 12px;
+        margin: 0 auto;
+        border-radius: 20px;
+        opacity: 0.8;
+        background-color: #020707;
+        color: white;
+        font-family: 'Press Start 2P', cursive;
+    }
+}
+
+@media(max-width: 424px) {
+    .textarea{
+        display: block;
+        width: 200px;
+        height: 300px;
+        padding: 12px;
+        margin: 0 auto;
+        border-radius: 20px;
+        opacity: 0.8;
+        background-color: #020707;
+        color: white;
+        font-family: 'Press Start 2P', cursive;
+    }
+}
+
+.searchForm{
+    margin-bottom: 20px;
+}
+
+#searchIcon{
+    width: 60px;
+    height: 60px;
+}
